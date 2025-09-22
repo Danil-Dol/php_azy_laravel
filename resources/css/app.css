@@ -42,3 +42,47 @@ body
     object-fit: cover;
     border-radius: 15px;
 }
+
+.logo
+{
+    width: 30px;
+    height: 30px;
+}
+
+.header
+{
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer
+{
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ulh
+{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 45%;
+}
+
+.ulf
+{
+    width: 1020px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 450px;
+}

@@ -17,4 +17,9 @@ class TestController extends Controller
     {
         return view('third');
     }
+
+    public function home()
+    {
+        return view('home');
+    }
 }
