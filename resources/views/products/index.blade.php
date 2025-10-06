@@ -27,6 +27,7 @@
                         @method('delete')
                         <input type="submit" value="Удалить">
                     </form>
+                    <a href="{{route('products.edit', $product->id)}}">Редактировать</a>
                     <hr>
                 </div>
             @endforeach
