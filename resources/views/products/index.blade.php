@@ -11,6 +11,7 @@
         <h1>Каталог товаров</h1>
     </header>
     <main>
+        <a href="{{route('products.create')}}">Создание товара</a>
         <div class="container">
             @foreach($products as $product)
                 <div class="card">
