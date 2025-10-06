@@ -33,7 +33,7 @@ class ProductController extends Controller
     {
         $data = $request -> validate([
             'name' => 'string|required',
-            'price' => 'required|decimal:0:2',
+            'price' => 'required|decimal:0,2',
             'description' => 'string'
         ]);
         $product->create($data);
