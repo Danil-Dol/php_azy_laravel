@@ -23,4 +23,14 @@ class ProductController extends Controller
         $product->delete();
         return redirect()->back();
     }
+
+    public function create()
+    {
+        return view('products.create');
+    }
+
+    public function store()
+    {
+        
+    }
 }
