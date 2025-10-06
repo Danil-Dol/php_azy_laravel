@@ -15,9 +15,7 @@
         </ul>
     </header>
     <main class="main">
-        @foreach ($array as $item)
-            <p>{{$item}}</p>
-        @endforeach
+  
     </main>
     <footer class="footer">
         <ul class="ulf">
